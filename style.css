@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    background-color: #F6F6EE;
+    overflow-x: hidden;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    padding: 0px 7vw;
+    background-color: #F6F6EE;
+}
+
+.nav .links{
+    display: flex;
+    gap: 25px;
+    padding: 0px 13vw;
+}
+
+.links a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: black; 
+}
+.links a:hover{
+    text-decoration:underline;
+    color: black; 
+}
+
+.nav h3{
+    font-weight: 500;
+}
+
+.nav h3 span{
+    font-weight: 600;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40vh;
+    background-color: #F6F6EE;
+}
+
+.heading h1{
+ 
+    font-size: 40px;
+}
+
+.heading p{
+    text-align: center;
+    margin: 20px 0;
+    width: 40%;
+}
+
+.heading button{
+    padding: 12px 32px;
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.heading button:hover{
+    background-color: rgb(33, 33, 33);
+}
+
+.illustration{
+    width: 100%;
+}
+
+.illustration img{
+    width: 100%;
+}
+
+.details{
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    padding: 10vw 5vw;
+    background-color: #F6F6EE;
+
+}
+
+.dleft{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    
+    width: 48%;
+    border-right: 2px solid black;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.smline{
+    width: 5%;
+    height: 3px;
+    background-color: black;
+    margin: 30px 0;
+}
+.dleft p{
+    width: 40%;
+    text-align: right;
+    font-size: 20px;
+}
+.dright{
+    width: 48%;
+    padding-left: 30px;
+}
+
+.feat{
+    width: 38%;
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+    
+}
+.feat p{
+    margin-top: 10px;
+    font-size: 12px;
+    /* width: 50%; */
+
+}
+.feat img{
+    width: 82px;
+    height: 82px;
+}
+
+
+.fdets h3{
+    font-size: 25px;
+}
+.fdets p{
+    font-size: 15px;
+}
